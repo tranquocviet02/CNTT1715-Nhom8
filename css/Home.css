@@ -25,6 +25,7 @@ body{
      background-position: center;
      background-attachment: fixed;
 }
+
 .hed{
      display: inline;
      position: fixed;
@@ -40,7 +41,29 @@ body{
      padding: 0;
      z-index: 9999;
 
+/* 
+     --> nên là đoạn code này bị thừa do ở dưới nó có css ùi  */
 }
+
+
+.hed{
+     display: inline;
+     position: fixed;
+     border: 0.1px solid rgba(40, 24, 24, 0.332);
+     background-color: #be7b48;
+     object-position: right ;
+     width: 100%;
+     height: 7em;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     z-index: 9999;
+}
+
+/* nếu cháu muốn thay đổi height , 
+thì thằng ở dưới nó ưu tiên nhận hơn code mk để ở trước nhớ 
+nên có thể ẩn class hed ở trên đi cũng đk á  */
+
 img.logo_{
      float: left;
      height: 90%;
@@ -510,21 +533,6 @@ input#search-Menu{
      opacity: 1.0;
 }
 
-.hed{
-     display: inline;
-     position: fixed;
-     border: 0.1px solid rgba(40, 24, 24, 0.332);
-     /*background-image: url(img/bg1.jpg);*/
-     /*background-color: rgb(238, 151, 38);*/
-     background-color: #be7b48;
-     object-position: right ;
-     width: 100%;height: 7em;
-     /*opacity:  0.855;*/
-     text-align: center;
-     margin: 0;
-     padding: 0;
-     z-index: 9999;
-}
 img.logo_ {
      display:  inline-block;
      height: 5.5em;width: 5.5em;
@@ -774,17 +782,26 @@ font-size: 1.2em;
           display: inline;
           position: fixed;
           border: 0.1px solid rgba(40, 24, 24, 0.332);
-          /*background-image: url(img/bg1.jpg);*/
-          /*background-color: rgb(238, 151, 38);*/
           background-color: #be7b48;
           object-position: right ;
           width: 100%;height: 5.5em;
-          /*opacity:  0.855;*/
           text-align: center;
           margin: 0;
           padding: 0;
           z-index: 9999;
      }
+
+     .hed{
+          height: 5.5em;
+          /* ntn nhá */
+     }
+/* 
+     với ở đây vì 
+     css ở trên nó vẫn lấy lại
+     nên nếu mk thay đổi gì ở khoảng desktop nhỏ hơn 2000
+     thì mk chỉ cần giữ lại cái thay đổi là được nhá  */
+
+
      img.logo_ {
           display:  inline-block;
           height: 5em;width: 5em;

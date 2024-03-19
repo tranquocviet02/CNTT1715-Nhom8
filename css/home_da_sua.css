@@ -1,0 +1,253 @@
+
+
+/* product */
+
+body {
+    font-family: open sans, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    font-weight: 400;
+    background-color: #fff;
+    overflow-x: hidden !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Oswald,sans-serif;
+    color: #30271c;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: unset;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 1.11667em
+}
+
+h2 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 1.14286em
+}
+
+h3 {
+    font-size: 22px;
+    letter-spacing: .5px;
+    line-height: 1.22727em;
+}
+
+h4,h4.ui-helper-reset {
+    font-size: 19px;
+    line-height: 1.31579em
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 1.28571em
+}
+
+h6 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.35714em
+}
+
+.text{
+    color: black;
+}
+
+
+
+
+.product{
+    background-color: white;
+    padding: 10px;
+}
+
+.padding.section-text{
+    padding: 60px 0;
+}
+.padding.section-text .content-text{
+    padding-bottom: 60px;
+}
+
+.section-text .content-text{
+   gap: 20px;
+}
+
+.section-text .content-text .sub-title{
+    font-family: Merriweather, serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #c7a17a;
+    margin: 0;
+}
+
+.section-text .content-text .title{
+    font-family: Oswald, sans-serif;
+    color: #30271c;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 1.14286em;
+}
+
+.section-text .edgtf-separator{
+    border-color: #C7A17A;
+    width: 120px;
+    border-bottom-width: 2px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 2px solid #c7a17a;
+    margin: 5px 0;
+}
+
+.grid.column-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px 50px;
+}
+
+.grid.column-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px 50px;
+}
+.product-list .product-list-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.product-list:hover .edgtf-add-to-cart-holder .add_to_cart_button{
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+
+
+.edgtf-add-to-cart-holder{
+    position: relative;
+}
+
+.product-list .product-list-text{
+    opacity: 2;
+    text-align: start;
+}
+.add_to_cart_button{
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    background-color: rgba(199, 161, 122, .93);
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+    -moz-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+    -webkit-transition: -webkit-transform .3s cubic-bezier(.4,.87,.4,.87);
+    transition: transform .3s cubic-bezier(.4,.87,.4,.87);
+}
+
+
+.product-list-text-title:hover {
+    color: #c7a17a
+}
+
+.text-brown{
+    color: #c7a17a !important
+}
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {
+    color: #c7a17a
+}
+
+.background-menu{
+    background-image: url(https://barista.qodeinteractive.com/elementor/wp-content/uploads/2017/01/home-1-parallax-2.jpg);
+}
+
+
+.order-menu-list .order-menu-list-text .text-item-list .text-line{
+    height: 3px;
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+    display: table-cell;
+    width: 98%;
+    z-index: 1;
+    position: relative;
+    bottom: 2px;
+}
+
+.order-menu-list .order-menu-list-text .text-item-list .title-stt{
+    background-color: #c7a17a;
+    font-family: Merriweather, serif;
+    font-style: italic;
+    padding: 3px 13px;
+    text-align: center;
+}
+
+.order-menu-list .order-menu-list-text .text-item-list .text-title{
+    display: table-cell;
+    white-space: nowrap;
+    color: white;
+}
+
+.order-menu-img{
+    height: auto;
+    width: 100%;
+    max-width: 83px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.edgtf-lighter-effect-top{
+    margin-top: -57px;
+}
+
+.menu-btn.menu-btn-solid{
+    background-color: #c7a17a;
+    border: 2px solid #c7a17a;
+    color: #fff;
+}
+
+.menu-btn.menu-btn-solid:hover{
+    color: rgb(48, 39, 28);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);;
+}
+
+.menu-btn{
+    display: inline-block;
+    position: relative;
+    outline: 0;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    padding: 14px 35px;
+    font-size: 13px;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    font-family: open sans, sans-serif;
+    -webkit-transition: color .3s cubic-bezier(.55,.21,.51,.75), background-color .3s cubic-bezier(.55,.21,.51,.75), border-color .3s cubic-bezier(.55,.21,.51,.75);
+    -moz-transition: color .3s cubic-bezier(.55, .21, .51, .75), background-color .3s cubic-bezier(.55, .21, .51, .75), border-color .3s cubic-bezier(.55, .21, .51, .75);
+    transition: color .3s cubic-bezier(.55,.21,.51,.75), background-color .3s cubic-bezier(.55,.21,.51,.75), border-color .3s cubic-bezier(.55,.21,.51,.75);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
